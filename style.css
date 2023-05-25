@@ -1,0 +1,33 @@
+. {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: darkgrey;
+}
+h1 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+form button {
+  width: 5rem;
+}
+section {
+  display: block;
+}
