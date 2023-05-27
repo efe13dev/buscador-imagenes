@@ -1,4 +1,4 @@
-. {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,6 +13,7 @@ h1 {
   padding: 2rem;
   font-size: 3rem;
   font-family: sans-serif;
+  font-weight: bold;
 }
 main {
   display: flex;
@@ -21,13 +22,44 @@ main {
 form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
   align-items: center;
   gap: 1rem;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1rem;
+}
+form label {
+  font-weight: bold;
 }
 form button {
   width: 5rem;
 }
-section {
-  display: block;
+input#imagesNumber {
+  width: 40px;
+}
+section.app {
+  padding: 1rem;
+}
+section.app ul {
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+section li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 2px solid gray;
+  padding-top: 1rem;
+}
+section.app li p {
+  padding: 1rem 0rem;
+}
+section.app img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
