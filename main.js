@@ -3,9 +3,9 @@ const app = document.querySelector('.app')
 const accesKey = 'c1w_d3xuOiMkZmj2A7iP0QmUQ-W8TjZ4rQGh2ObyepY'
 const secretKey = 'tm3EPGyq3hVODe61Tmas3c6XSfS4gEflt3V_A6hPRng'
 const writePhotos = ({ results }) => {
-  const photoList = results.map((photo) => {
+  const photoList = results.map(photo => {
     return `<li>
-  <img src='${photo.urls.thumb}' alt='${photo.description}' />
+    <img src='${photo.urls.thumb}' alt='${photo.description}' />
   <p>${photo.user.username}</p>
   </li>`
   })
@@ -13,10 +13,10 @@ const writePhotos = ({ results }) => {
   app.innerHTML = `<ul>${photoList.join('')}</ul>`
 }
 
-const writeMessage = (message) => {
+const writeMessage = message => {
   app.innerHTML = `<p>${message}</p>`
 }
-const getData = async (e) => {
+const getData = async e => {
   e.preventDefault()
   const value = new FormData(form)
   const imagesNumber = value.get('imagesNumber')
@@ -42,4 +42,4 @@ const getData = async (e) => {
   }
 }
 
-form.addEventListener('submit', getData)
+form.addEventListener('submit', getData);
