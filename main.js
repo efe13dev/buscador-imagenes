@@ -1,5 +1,5 @@
 const accesKey = 'c1w_d3xuOiMkZmj2A7iP0QmUQ-W8TjZ4rQGh2ObyepY';
-const secretKey = 'tm3EPGyq3hVODe61Tmas3c6XSfS4gEflt3V_A6hPRng';
+
 const form = document.querySelector('form.search');
 const app = document.querySelector('.app');
 
