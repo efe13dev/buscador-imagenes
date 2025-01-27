@@ -16,8 +16,8 @@ h1 {
   font-size: 3rem;
   font-family: 'Segoe UI', sans-serif;
   font-weight: bold;
-  color: #0026a3;
-  text-shadow: 2px 2px 4px rgba(0, 255, 157, 0.2);
+  color: #4d9fff;
+  text-shadow: 2px 2px 4px rgba(77, 159, 255, 0.2);
 }
 
 main {
@@ -50,7 +50,7 @@ form div {
 
 form label {
   font-weight: bold;
-  color: #0300a3;
+  color: #4d9fff;
 }
 
 form input {
@@ -63,14 +63,14 @@ form input {
 
 form input:focus {
   outline: none;
-  border-color: #009dff;
-  box-shadow: 0 0 5px rgba(0, 255, 157, 0.5);
+  border-color: #4d9fff;
+  box-shadow: 0 0 5px rgba(77, 159, 255, 0.5);
 }
 
 form button {
   width: auto;
   padding: 0.5rem 2rem;
-  background-color: #0015b7;
+  background-color: #4d9fff;
   color: #1a1a1a;
   border: none;
   border-radius: 4px;
@@ -80,7 +80,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #00cc7d;
+  background-color: #3d8eff;
   transform: translateY(-2px);
 }
 
@@ -121,7 +121,7 @@ section li:hover {
 
 section.app li p {
   padding: 1rem 0rem;
-  color: #001cb8;
+  color: #4d9fff;
 }
 
 section.app > p {

@@ -2,6 +2,10 @@
 
 Una aplicación para buscar imágenes utilizando JavaScript vanilla. La aplicación permite a los usuarios buscar imágenes por palabras clave y especificar la cantidad de resultados que desean ver.
 
+## Vista Previa
+
+![Vista previa de la aplicación](./assets/buscador-imagenes.jpg)
+
 ## Características
 
 - 🔍 Búsqueda de imágenes por palabras clave
